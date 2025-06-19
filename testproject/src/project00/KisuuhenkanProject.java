@@ -52,8 +52,8 @@ public class KisuuhenkanProject {
             String[] pilihanLanjutan = switch (pilihanAwal) {
                 case 1 -> new String[]{"8", "10", "16"};
                 case 2 -> new String[]{"2", "10", "16"};
-                case 3 -> new String[]{"2", "8", "10"};
-                case 4 -> new String[]{"2", "8", "16"};
+                case 3 -> new String[]{"2", "8", "16"};
+                case 4 -> new String[]{"2", "8", "10"};
                 default -> new String[]{};
             };
 
